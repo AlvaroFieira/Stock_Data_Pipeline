@@ -1,0 +1,34 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.env
+
+# Virtual environment
+venv/
+env/
+
+# Airflow-specific ignores
+airflow.db
+airflow-webserver.pid
+logs/
+tmp/
+
+# AWS credentials and sensitive files
+aws_config.json
+*.pem
+
+# OS-specific ignores
+.DS_Store
+Thumbs.db
+
+# IDE-specific ignores
+.vscode/
+.idea/
+
+# Backup files
+*.bak
+*.swp
+*.tmp
+*.old
